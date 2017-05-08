@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<title>
+  NetLogo 6.0 User Manual
+</title>
+    <!-- no section name here because htmldoc propagates this through whole doc -->
+    <link rel="stylesheet" href="netlogo.css" type="text/css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <div class="banner">
+      <img width="600" height="85" src="images/title.jpg" alt="NetLogo banner">
+    </div><!--<ul>
+<li><a href="#intro">What is NetLogo?</a>
+<li><a href="#features">Features</a>
+</ul>-->
+    <!-- next line must be h1, not h2, or htmldoc crashes when we try
+     to generate the PDF! - ST 4/1/02 -->
+    <h1>
+      <a id="intro"></a>What is NetLogo?
+    </h1>
+    <p>
+      <img width="404" height="200" src="images/thumbnails.png" alt="">
+    <p>
+      <b>NetLogo</b> 是一个用来对自然和社会现象进行仿真的可编程建模环境。它是由Uri Wilensky在1999年发起的，由连接学习和计算机建模中心（CCL）负责持续开发。
+    <p>
+      <b>NetLogo</b> 特别适合对随时间演化的复杂系统进行建模。建模人员能够向成百上千的独立运行的 &quot;主体&quot; (agent)发出指令。这就使得探究微观层面上的个体行为与宏观模式之间的联系成为可能，这些宏观模式是由许多个体之间的交互涌现出来的。
+    <p>
+      <b>NetLogo</b> 可以让学生运行仿真并参与其中，探究不同条件下他们的行为。它也是一个编程环境，学生、教师和课程开发人员可以创建自己的模型。NetLogo足够简单，学生和教师可以非常容易的进行仿真，或者创建自己的模型。并且它也足够先进，在许多领域都可以做为一个强大的研究工具。
+    <p>
+      <b>NetLogo</b> 有详尽的文档和教学材料。它还带着一个模型库，库中包含许多已经写好的仿真模型，可以直接使用也可修改。这些仿真模型覆盖自然和社会科学的许多领域，包括生物和医学，物理和化学，数学和计算机科学，以及经济学和社会心理学等。几个用NetLogo实现的模型探索类课程正在开发。
+    <p>
+      <b>NetLogo</b> 是包括StarLogo和StarLogoT在内的一系列前任的新一代建模语言。NetLogo运行在Java虚拟机上（jvm），因此它是跨平台的(Mac,
+      Windows, Linux, et al). 它可以作为一个桌面应用运行，也支持可以命令行操作。
+    <h2>
+      <a id="features">Features</a>
+    </h2>
+    <ul>
+      <li>系统:
+        <ul>
+          <li>免费, <a href="https://github.com/NetLogo/NetLogo" target="_blank">开源</a>
+          <li>跨平台: runs on Mac, Windows, Linux, et al
+          <li>支持国际字符集
+          </ul>
+      <li>编程:
+        <ul>
+          <li>完全可编程
+          <li>易读的语法结构
+          <li>对Logo方言进行扩展以支持多主体
+          <li>可移动主体 (turtles) 在固定位置主体
+          (patches)组成的栅格上移动
+          <li>Link 主体可以连接turtles，组成网络，图，和聚合物
+          <li>内置丰富的基本命令
+          <li>双精度数值计算
+          <li>函数是第一类值 (又称匿名函数, closures, lambda)
+          <li>运行结果可在不同平台上复现
+          </ul>
+      <li>环境:
+        <ul>
+          <li>可以进行运行中（on-the-fly）交互的命令中心
+          <li>界面构建，包括按钮、滑动条、开关、选择器、监视器、文本框、注解、输出区
+          <li>Info 标签页可以用富文本和图片对模型进行注释
+          <li>HubNet: 多人联网的方式参与同一个仿真模型
+          <li>Agent monitors （主体监视器）可以观察和控制主体
+          <li>导入导出函数 (导出数据, 保存模型状态并回复, 输出视频)
+          <li>BehaviorSpace （行为空间）, 一个开源工具，可用于并行运行一个模型并收集数据
+          <li>系统动力学模块
+          <li>NetLogo 3D 可用于3D建模
+          <li>Headless 模式允许通过命令行批量运行模型
+          </ul>
+      <li>显示与可视化:
+        <ul>
+          <li>线图，柱图，散点图
+          <li>速度滑动条加快或降低模型运行速度
+          <li>可以用 2D or 3D 方式查看模型
+          <li>主体形状（shape）为可缩放和旋转的矢量图
+          <li>Turtle 和 patch 显示标签（labels）
+          </ul>
+      <li>APIs:
+        <ul>
+          <li>controlling API 可以使NetLogo嵌入到在脚本或应用程序中
+          <li>extensions API 允许给NetLogo增加新的命令和reporter; 也提供了开源的 extensions 示例
+          </ul>
+      </ul>
+
